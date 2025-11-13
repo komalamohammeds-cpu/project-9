@@ -12,75 +12,42 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color:gray;
+    background-color:#D9D9D9;
     color: black;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 20px;
-    width: 1280px;
     height: 104px;
 }
 
-.sup {
-    color: black;
-    font-size: 1.5rem;
+.sup{
+    color: #4F4400;
     position: relative;
-    padding-bottom: 5px;
-    width: 181px;
-    height: 36px;
-    top: 32px;
-    left: 70px;
+    padding-left: 70px;
+    padding-top: 18px;
+    font-size: 20px;   
+}
+
+.navbar {
+    padding-right: 70px;
+    padding-top: 18px;   
+}
+
+.navitems   {
+    list-style: none;
+    display: flex;
+    gap: 30px;
     
 }
 
-.sup::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    background: blue;
-    transition: width 0.3s ease;
-}
 
-.sup:hover::after{
-    width: 100%;
-}
-
- nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;   
-    align-items: center;        
-    gap: 40px;                  
-    margin: 0;                  
-    padding: 0;                
-    position: relative;         
-    top: 30px;                  
-}
-
-.navbar ul li a {
-    text-decoration: none;
+.navitems a {
     color: #3D600A;
-    font-weight: bold;
-    font-size: 1.1rem;
-    position: relative;
-    transition: color 0.3s ease;
+    font-size: 16px;
+    line-height: 3;
 }
 
-.navbar ul li a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    background: blue;
-    transition: width 0.3s ease;
-   }
 
-.navbar ul li a:hover::after {
-    width: 100%;
 
-}
+
+
