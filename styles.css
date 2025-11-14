@@ -9,31 +9,35 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
+.nav-section {
+   background-color: #d9d9d9;
+}
+
+.nav-container {
     display: flex;
     justify-content: space-between;
-    background-color:#D9D9D9;
+    align-items: center;
     color: black;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 32px 36px 70px;
     font-size: 20px;
-    height: 104px;
+    max-width: 1280px;
+    margin: 0 auto;
+
 }
 
 .sup{
     color: #4F4400;
     position: relative;
-    padding-left: 70px;
-    padding-top: 18px;
-    font-size: 20px;   
+    font-size: 20px;    
 }
 
 .navbar {
-    padding-right: 70px;
-    padding-top: 18px;   
+    list-style: none; 
+    display: flex;
+    gap: 30px;
 }
 
-.navitems   {
+.navitems {
     list-style: none;
     display: flex;
     gap: 30px;
@@ -44,8 +48,8 @@ header {
 .navitems a {
     color: #3D600A;
     font-size: 16px;
-    line-height: 3;
-}
+
+ }
 
 
 
