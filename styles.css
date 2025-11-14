@@ -30,24 +30,28 @@ body {
     position: relative;
     font-size: 20px;    
 }
-
+/* 
 .navbar {
     list-style: none; 
     display: flex;
     gap: 30px;
-}
+
+} */
 
 .navitems {
     list-style: none;
     display: flex;
     gap: 30px;
     
+    
 }
 
 
-.navitems a {
+.navitems li a {
     color: #3D600A;
     font-size: 16px;
+    text-decoration: none;
+    
 
  }
 
