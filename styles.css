@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-section {
+   background-color: #d9d9d9;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 32px 70px 36px;
+    font-size: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.sup{
+    color: #4F4400;
+    position: relative;
+    font-size: 20px;    
+}
+
+.navitems {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+
+.navitems li a {
+    color: #3D600A;
+    font-size: 16px;
+    text-decoration: none;
+    
+
+ }
+
+
+
+
+
