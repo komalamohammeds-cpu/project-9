@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: black;
-    padding: 32px 36px 70px;
+    padding: 32px 70px 36px;
     font-size: 20px;
     max-width: 1280px;
     margin: 0 auto;
@@ -30,13 +30,6 @@ body {
     position: relative;
     font-size: 20px;    
 }
-/* 
-.navbar {
-    list-style: none; 
-    display: flex;
-    gap: 30px;
-
-} */
 
 .navitems {
     list-style: none;
